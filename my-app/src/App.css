@@ -1,0 +1,53 @@
+header {
+    display: flex;
+    background-color:turquoise;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+
+}
+h1 {
+    margin-left: 2rem;
+}
+
+a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 2rem;
+}
+
+button {
+    margin-left: 2rem;
+}
+.buybutton {
+    margin: 1rem auto;
+    background-color: salmon;
+    color: white;
+    border-style: none;
+    width: 9rem;
+    height: 2rem;
+    border-radius: 20px;
+}
+
+section {
+    background-color: antiquewhite;
+    justify-content:center;
+    display:flex;
+    margin: 0 auto;
+}
+figure {
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+img {
+     border-radius: 10px;
+     box-shadow: darkgray 5px 5px 10px;
+}
+.products {
+    background: white;
+    margin: 2rem auto;
+}
