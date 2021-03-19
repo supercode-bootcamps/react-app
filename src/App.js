@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import MyHeader from './components/Header';
+import MyProducts from './components/Products';
+import MySection from './components/Section';
+import Welcome from './components/Welcome';
 
-function App() {
+
+function App()
+{
+  const log = () =>
+  {
+    console.log('Hello World');
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <MyHeader></MyHeader>
+      <Welcome name='Super-Code' age='33'>
+      </Welcome>
+      <button onClick={log}>Click Me!</button>
+      <MySection></MySection>
+      <MyProducts></MyProducts>
     </div>
   );
 }
